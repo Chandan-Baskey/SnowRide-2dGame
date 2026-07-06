@@ -24,7 +24,7 @@
 
 | Character Selection | Gameplay View |
 |---|---|
-| ![Game View](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/90767a309b5e86375523bad226a1d37d3e0c741a/Characterr.png?raw=true) |
+| ![Game View](https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/323bca832a77ea8189b9202135fe2b9448ae60f7/View%20game.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/90767a309b5e86375523bad226a1d37d3e0c741a/Characterr.png?raw=true) |
 
 </div>
 
