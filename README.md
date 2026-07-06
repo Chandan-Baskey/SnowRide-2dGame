@@ -50,9 +50,9 @@ The core scoring loop is built around **flip tracking**: the game accumulates th
 
 <div align="center">
 
-| Main Scene Layout | Gameplay View | Character Selection |
-|---|---|---|
-| ![Game Scene](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20Scene.png?raw=true) | ![Game View](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Character%20Selection.png?raw=true) |
+| Character Selection | Gameplay View |
+|---|---|
+| ![Game View](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) |
 
 </div>
 
