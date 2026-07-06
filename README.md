@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/f07154bd5c1882806cb7d0cc2aa33e6970dc07de/Snow%20Ride%20B.jpg?raw=true" alt="Escape The Cave banner" width="100%">
+</p>
+
 <div align="center">
 
 # ❄️ SnowRide2d
