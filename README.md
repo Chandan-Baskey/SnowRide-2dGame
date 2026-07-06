@@ -18,6 +18,16 @@
 
 </div>
 
+## 🖼️ Gameplay Preview
+
+<div align="center">
+
+| Character Selection | Gameplay View |
+|---|---|
+| ![Game View](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) |
+
+</div>
+
 ---
 
 ## 📖 Overview
@@ -46,17 +56,6 @@ The core scoring loop is built around **flip tracking**: the game accumulates th
 
 ---
 
-## 🖼️ Gameplay Preview
-
-<div align="center">
-
-| Character Selection | Gameplay View |
-|---|---|
-| ![Game View](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) |
-
-</div>
-
----
 
 ## 🧭 Game Flow
 
