@@ -19,7 +19,7 @@ public class CrashDetector : MonoBehaviour
         {
             playerController.DisableMovement();
             Debug.Log("Loss Game");
-            Invoke("ReloadScene", 1f);
+            Invoke("ReloadScene", 0.5f);
             lossEffect.Play();
             
 

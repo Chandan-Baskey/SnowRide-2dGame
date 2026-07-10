@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] float torqueAmount = 1f;
+    [SerializeField] float torqueAmount;
     [SerializeField] float baseSpeed = 15f;
     [SerializeField] float boostSpeed = 20f;
     [SerializeField] ScoreManager addScore;
@@ -43,11 +43,11 @@ public class PlayerController : MonoBehaviour
 
         if (moveX < 0)
         {
-            player.AddTorque(torqueAmount);
+            player.AddTorque(torqueAmount * Time.deltaTime);
         }
         else if (moveX > 0)
         {
-            player.AddTorque(-torqueAmount);
+            player.AddTorque(-torqueAmount * Time.deltaTime);
         }
     }
 

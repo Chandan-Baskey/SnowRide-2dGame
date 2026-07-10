@@ -6,11 +6,14 @@ using UnityEngine.SceneManagement;
 public class FinishLine : MonoBehaviour
 {
     [SerializeField] ParticleSystem WinEffect;
-    
-    
+    [SerializeField] AudioClip gameWinClip;
+    AudioSource audioSource;
+
     private void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = gameWinClip ;
+
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -23,6 +26,10 @@ public class FinishLine : MonoBehaviour
             Invoke("ReloadScene", 1f);
             WinEffect.Play();
             
+            if (audioSource != null && gameWinClip != null)
+            {
+                audioSource.PlayOneShot(gameWinClip);
+            }
         }
        
     }

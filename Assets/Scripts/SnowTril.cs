@@ -7,11 +7,14 @@ using TMPro;
 public class SnowTril : MonoBehaviour
 {
     [SerializeField] ParticleSystem snowEffect;
-    //[SerializeField] AudioSource audioSource;
+    AudioSource audioSource;
+    [SerializeField] AudioClip snowSound;
 
     private void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
+        audioSource.clip = snowSound;
+        audioSource.loop = true; // keep looping while touching floor
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -19,11 +22,11 @@ public class SnowTril : MonoBehaviour
         if (collision.gameObject.layer == layerIndex)
         {
             snowEffect.Play();
-            //audioSource.Play();
-            
-            
-            
-            
+
+            if (!audioSource.isPlaying)
+                audioSource.Play();
+
+
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
@@ -32,11 +35,8 @@ public class SnowTril : MonoBehaviour
         if (collision.gameObject.layer == layerIndex)
         {
             snowEffect.Stop();
-            //audioSource.Stop();   
+            audioSource.Stop();
         }
     }
-    void Clip()
-    {
-
-    }
+    
 }
