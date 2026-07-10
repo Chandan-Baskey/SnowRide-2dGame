@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/f07154bd5c1882806cb7d0cc2aa33e6970dc07de/Snow%20Ride%20B.jpg?raw=true" alt="Escape The Cave banner" width="100%">
+</p>
+
 <div align="center">
 
 # ❄️ SnowRide2d
@@ -11,6 +15,16 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 [![Game Scene](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20Scene.png?raw=true)](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20Scene.png)
+
+</div>
+
+## 🖼️ Gameplay Preview
+
+<div align="center">
+
+| Character Selection | Gameplay View |
+|---|---|
+| ![Game View](https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/90767a309b5e86375523bad226a1d37d3e0c741a/Characterr.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide-2dGame/blob/323bca832a77ea8189b9202135fe2b9448ae60f7/View%20game.png?raw=true) |
 
 </div>
 
@@ -42,17 +56,6 @@ The core scoring loop is built around **flip tracking**: the game accumulates th
 
 ---
 
-## 🖼️ Gameplay Preview
-
-<div align="center">
-
-| Main Scene Layout | Gameplay View | Character Selection |
-|---|---|---|
-| ![Game Scene](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20Scene.png?raw=true) | ![Game View](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Game%20View.png?raw=true) | ![Character Selection](https://github.com/Chandan-Baskey/SnowRide2d/blob/main/Character%20Selection.png?raw=true) |
-
-</div>
-
----
 
 ## 🧭 Game Flow
 
